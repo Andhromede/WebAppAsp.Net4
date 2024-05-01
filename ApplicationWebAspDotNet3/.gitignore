@@ -1,0 +1,34 @@
+# Fichiers de build et de debug
+bin/
+obj/
+Debug/
+Release/
+
+# Fichiers de configuration Visual Studio
+.vs/
+*.user
+*.suo
+
+# Packages NuGet
+packages/
+
+# Fichiers de journalisation
+*.log
+*.vslog
+
+# Autres fichiers et dossiers couramment ignorés
+*.swp
+*~
+ProjectSettings/
+
+# Fichiers de cache temporaires
+*.tmp
+*.temp
+
+# Fichiers de cache SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Fichiers de cache de IIS Express
+/ProjectName/.vs/ProjectName/config/applicationhost.config

@@ -18,7 +18,9 @@ Ce projet nécessite les éléments suivants :
 Pour cloner et exécuter ce projet localement, suivez les étapes ci-dessous :
 
 (avec Git bash)
+<br>
 git clone https://github.com/Andhromede/ApplicationWebAspDotNet3.git
+<br>
 cd ApplicationWebAspDotNet3
 
 
@@ -33,11 +35,12 @@ cd ApplicationWebAspDotNet3
    - **Développement ASP.NET et web**
    Ce dernier inclut les outils nécessaires pour le développement de Web Forms.
 
-   
+
 # Instructions pour la configuration de la base de données et autres dépendances
 
 Voici le sript SQL générant la base de données : 
 
+```sql
 CREATE TABLE Role(
    Id_Role INT AUTO_INCREMENT,
    name VARCHAR(10) NOT NULL,
@@ -120,7 +123,7 @@ CREATE TABLE Status_booking(
    FOREIGN KEY(Id_Booking) REFERENCES Booking(Id_Booking),
    FOREIGN KEY(Id_Status) REFERENCES Status(Id_Status)
 );
-
+```
 
 ## Fonctionnalités :
 
